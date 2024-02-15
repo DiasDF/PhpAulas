@@ -1,0 +1,25 @@
+PHP-Docker
+https://phpdocker.io/  - Cria um container docker com php
+
+file:///home/milton/phpdocker/phpdocker/README.html - Tutorial
+
+
+Cria Builds Docker Para aplicações php
+https://youtu.be/H81vkL1ptW8?si=4IkwjVj934_dsAfL
+
+Gera um arquivo zip contendo o arquivo do tipo docker-compose.yml
+
+Comandos:
+docker-compose up -d	- instala pelo compose.yml
+**Para manter o terminal em execução sem travar, eu posso passar a flag -d, (detached)
+
+docker-compose ps		-lista os containers ativos
+
+mkdir public			- Diretório onde ficarão os arquivos mesmo diretório do docker-compose.yml.
+
+docker-compose exec webserver sh  - para entrar no container do webserver
+
+exit - sai do container
+
+
+
