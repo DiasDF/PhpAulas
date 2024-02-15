@@ -1,5 +1,6 @@
 <?php
 echo "Milton: ";
 echo "Teste: ";
-phpinfo();
+// phpinfo();
 exit;
+?>
